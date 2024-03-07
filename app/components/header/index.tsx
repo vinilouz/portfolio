@@ -1,20 +1,20 @@
-"use client";
+'use client'
 
-import Image from "next/image";
-import { NavItem } from "./nav-item";
-import Link from "next/link";
-import { motion } from "framer-motion";
+import Image from 'next/image'
+import { NavItem } from './nav-item'
+import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 const NAV_ITEMS = [
   {
-    label: "Home",
-    href: "/",
+    label: 'Home',
+    href: '/',
   },
   // {
   //   label: 'Projetos',
   //   href: '/projects',
   // },
-];
+]
 
 export const Header = () => {
   return (
@@ -26,7 +26,12 @@ export const Header = () => {
     >
       <div className="container flex items-center justify-between">
         <Link href="/">
-          <Image width={200} height={31} src="/images/logo.svg" alt="Logo vinilouz" />
+          <Image
+            width={200}
+            height={31}
+            src="/images/logo.svg"
+            alt="Logo vinilouz"
+          />
         </Link>
 
         <nav className="flex items-center gap-4 sm:gap-10">
@@ -36,5 +41,5 @@ export const Header = () => {
         </nav>
       </div>
     </motion.header>
-  );
-};
+  )
+}
