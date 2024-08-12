@@ -13,7 +13,7 @@ This project was created for the display of my personal projects
 &nbsp;
 
 ### 🔗 Project live
-* [Portfolio ]([https://vinilouz.com/](https://portfolio-vinilouz.vercel.app))
+* [Portfolio ] [https://vinilouz.com/](https://portfolio-vinilouz.vercel.app)
 
 &nbsp;
 
